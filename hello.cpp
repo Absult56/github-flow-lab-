@@ -1,5 +1,12 @@
 #include <iostream>
+#include <string>
+
+// Функция печати персонализированного сообщения
+void printGreeting(const std::string& name) {
+    std::cout << "Hello, " << name << "!" << std::endl;
+}
 
 int main() {
-    std::cout << "Hello" << std::endl;
+    printGreeting("Team");
+    return 0;
 }
