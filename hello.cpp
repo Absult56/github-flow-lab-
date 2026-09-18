@@ -1,8 +1,12 @@
 #include <iostream>
 #include <string>
 
-// Главная функция программы: вывод приветствия
+// Функция печати персонализированного сообщения
+void printGreeting(const std::string& name) {
+    std::cout << "Hello, " << name << "!" << std::endl;
+}
+
 int main() {
-    std::cout << "Hello, world!" << std::endl;
+    printGreeting("Team");
     return 0;
 }
