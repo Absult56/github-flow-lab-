@@ -1,17 +1,8 @@
 #include <iostream>
 #include <string>
 
-// Функция печати персонализированного сообщения с обработкой значения по умолчанию
-void printGreeting(const std::string& name = "World") {
-    if (name.empty()) {
-        std::cout << "Hello, World!" << std::endl;
-    } else {
-        std::cout << "Hello, " << name << "!" << std::endl;
-    }
-}
-
+// Главная функция программы: вывод приветствия
 int main() {
-    const std::string targetUser = "Team";
-    printGreeting(targetUser);
+    std::cout << "Hello, world!" << std::endl;
     return 0;
 }
